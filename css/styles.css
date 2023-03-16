@@ -27,7 +27,6 @@ cursor: pointer;
 }
 
 .headline {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -43,7 +42,6 @@ letter-spacing: 0.02em;
 }
 
 .description {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -82,7 +80,6 @@ color: var(--accent-color);
 
 .contact-mail {
 font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -96,7 +93,6 @@ color: var(--accent-color);
 
 .contact-phone-number {
 font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -117,7 +113,6 @@ opacity: .75;
 }
 
 .hero-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -185,7 +180,6 @@ color: #F4F4FD;
 }
 
 .footer-description {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
