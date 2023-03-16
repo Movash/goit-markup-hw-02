@@ -10,10 +10,6 @@ list-style: none;
 text-decoration: none;
 }
 
-.address {
-    font-style: normal;
-}
-
 /* ================= COMPONENTS ================*/
 body {
 font-family: 'Roboto', sans-serif;
@@ -84,6 +80,10 @@ color: #2E2F42;
 color: var(--accent-color);
 }
 
+.address {
+font-style: normal;
+}
+
 .contact-mail {
 font-size: 16px;
 line-height: 1.5;
@@ -128,9 +128,9 @@ background: #4D5AE5;
 color: #FFFFFF;
 }
 
-.hero.modal-btn:hover,
-.hero.modal-btn:focus {
-background-color: #404BBF;
+.hero-modal-btn:hover,
+.hero-modal-btn:focus {
+background-color: var(--accent-color);
 }
 
 /* ================= /HERO ================*/
