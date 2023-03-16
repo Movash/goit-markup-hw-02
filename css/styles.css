@@ -1,0 +1,195 @@
+:root {
+--accent-color: #404BBF;
+}
+
+.list {
+list-style: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+/* ================= COMPONENTS ================*/
+body {
+font-family: 'Roboto', sans-serif;
+color: #2E2F42;
+}
+
+.modal-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.headline {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+
+.title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ================= /COMPONENTS ================*/
+
+/* ================= HEADER ================*/
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logotype-second-color-dark {
+color: #2E2F42;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+
+.contact-mail {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+color: var(--accent-color);
+}
+
+.contact-phone-number {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+color: var(--accent-color);
+}
+
+/* ================= /HEADER ================*/
+
+/* ================= HERO ================*/
+.hero {
+background-color: #000000;
+opacity: .75;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-modal-btn {
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+background: #4D5AE5;
+color: #FFFFFF;
+}
+
+.hero.modal-btn:hover,
+.hero.modal-btn:focus {
+background-color: var(--accent-color);
+}
+
+/* ================= /HERO ================*/
+
+/* ================= ADVANTAGES ================*/
+
+/* ================= /ADVANTAGES ================*/
+
+/* ================= DOING ================*/
+
+/* ================= /DOING ================*/
+
+/* ================= TEAM ================*/
+
+/* ================= /TEAM ================*/
+
+
+
+/* ======== PORTFOLIO =======*/
+
+/* ====== BUTTONS =====*/
+
+.buttons-modal-btn {
+border: 1px solid #E7E9FC;
+background: #F4F4FD;
+color: #4D5AE5;
+}
+
+.buttons-modal-btn:hover,
+.buttons-modal-btn:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+/* ====== /BUTTONS =====*/
+
+/* ======== /PORTFOLIO =======*/
+
+
+
+/* ================= FOOTER ================*/
+
+.footer {
+background-color: #000000;
+opacity: .75;
+}
+
+.logotype-second-color-light {
+color: #F4F4FD;
+}
+
+.footer-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* ================= /FOOTER ================*/
