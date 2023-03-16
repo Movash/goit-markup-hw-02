@@ -84,27 +84,15 @@ color: var(--accent-color);
 font-style: normal;
 }
 
-.contact-mail {
+.contact {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-color: var(--accent-color);
-}
-
-.contact-phone-number {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contact:hover,
+.contact:focus {
 color: var(--accent-color);
 }
 
