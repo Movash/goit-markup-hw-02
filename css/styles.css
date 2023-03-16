@@ -10,10 +10,15 @@ list-style: none;
 text-decoration: none;
 }
 
+.address {
+    font-style: normal;
+}
+
 /* ================= COMPONENTS ================*/
 body {
 font-family: 'Roboto', sans-serif;
-color: #2E2F42;
+color: #434455;
+background-color:#FFFFFF;
 }
 
 .modal-btn {
@@ -31,7 +36,8 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
+text-align: center;
+color: #2E2F42;
 }
 
 .title {
@@ -39,13 +45,13 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .description {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
 }
 
 /* ================= /COMPONENTS ================*/
@@ -79,7 +85,6 @@ color: var(--accent-color);
 }
 
 .contact-mail {
-font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -92,7 +97,6 @@ color: var(--accent-color);
 }
 
 .contact-phone-number {
-font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -108,14 +112,14 @@ color: var(--accent-color);
 
 /* ================= HERO ================*/
 .hero {
-background-color: #000000;
-opacity: .75;
+background-color: #2e2f42;
 }
 
 .hero-title {
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 color: #FFFFFF;
 }
 
@@ -126,7 +130,7 @@ color: #FFFFFF;
 
 .hero.modal-btn:hover,
 .hero.modal-btn:focus {
-background-color: var(--accent-color);
+background-color: #404BBF;
 }
 
 /* ================= /HERO ================*/
@@ -141,6 +145,13 @@ background-color: var(--accent-color);
 
 /* ================= TEAM ================*/
 
+.team {
+background-color: #F4F4FD;
+}
+
+.team-item {
+background-color: #FFFFFF;
+}
 /* ================= /TEAM ================*/
 
 
@@ -169,8 +180,7 @@ background-color: var(--accent-color);
 /* ================= FOOTER ================*/
 
 .footer {
-background-color: #000000;
-opacity: .75;
+background-color: #2e2f42;
 }
 
 .logotype-second-color-light {
